@@ -24,8 +24,8 @@ const Contact = () => {
             <li>Phone Number: 786-314-4665</li>
             <li>Email: lja11202526@gmail.com</li>
             <li>
-              I also added clickable icons on the left side of the screen with
-              my LinkedIn, GitHub, and Email
+              There are clickable icons on the left side of the screen with my
+              LinkedIn, GitHub, and Email
             </li>
           </ul>
         </div>
