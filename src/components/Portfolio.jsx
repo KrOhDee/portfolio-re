@@ -3,7 +3,6 @@ import landingPage from '../assets/portfolio/landing-page.png';
 import weatherApp from '../assets/portfolio/weather-app.png';
 import shoppingCart from '../assets/portfolio/shopping-cart.png';
 import adminDashboard from '../assets/portfolio/admin-dashboard.jpeg';
-import { Tooltip } from 'react-tooltip';
 
 const Portfolio = () => {
   const portfolios = [
