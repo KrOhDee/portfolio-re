@@ -24,8 +24,8 @@ const About = () => {
         <br />
 
         <p className="text-xl">
-          My problem solving skills are something that I am really proud of, and
-          have allowed me to work through challenging projects. A key philosophy
+          I am really confident in my problem solving skills, as they have
+          allowed me to work through many challenging projects. A key philosophy
           that I follow is: breaking down complex problems into smaller, more
           manageable ones, is the key to success, both in coding and in life.
         </p>
