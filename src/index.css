@@ -32,3 +32,7 @@
 .portfolio-item .image-wrapper:hover .overlay {
   opacity: 1;
 }
+
+.desc {
+  font-size: 0.8rem;
+}

@@ -36,7 +36,7 @@ const Portfolio = () => {
       href: 'https://sage-chebakia-6c4906.netlify.app/',
       href2: 'https://github.com/KrOhDee/a-landing-page',
       tooltip: 'Landing Page',
-      desc: 'This is a beautiful landing page made with responsiveness being a priority. The project was styled with CSS and features a header with the company name and a navigation bar, a section showcasing food and drinks, a call-to-action, and a footer',
+      desc: 'This is a beautiful landing page made with responsiveness being a priority. The project was styled with CSS and features a header with the company name and a navigation bar, a section showcasing food and drinks, a call-to-action, and a footer.',
     },
   ];
 
@@ -70,7 +70,7 @@ const Portfolio = () => {
                   />
                 </a>
                 <div className="overlay absolute top-0 left-0 w-full h-full opacity-0 transition duration-200 ease-in-out flex justify-center items-center">
-                  <p className="text-sm">{desc}</p>
+                  <p className="desc">{desc}</p>
                 </div>
               </div>
               <div className="flex items-center justify-center">
