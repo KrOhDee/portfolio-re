@@ -70,7 +70,7 @@ const Portfolio = () => {
                   />
                 </a>
                 <div className="overlay absolute top-0 left-0 w-full h-full opacity-0 transition duration-200 ease-in-out flex justify-center items-center">
-                  <p>{desc}</p>
+                  <p className="text-sm">{desc}</p>
                 </div>
               </div>
               <div className="flex items-center justify-center">
