@@ -67,8 +67,9 @@ const About = () => {
             eagerness to learn and grow
           </span>
           . Although I have learned a lot about web development, I know there is
-          much more to learn, and I am looking forward to that, and I am always
-          open to feedback and constructive criticism.
+          much more to learn, and I am looking forward to that. I am always open
+          to feedback and constructive criticism, as I believe that is key to
+          being a great developer.
         </p>
       </div>
     </div>
