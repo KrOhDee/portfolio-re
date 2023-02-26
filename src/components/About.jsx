@@ -13,7 +13,7 @@ const About = () => {
           </p>
         </div>
 
-        <p className="about-me mt-20">
+        <p className="about-me mt-15">
           I decided to pursue coding because I wanted to know how the
           technologies I was around every day worked. I have solidified my front
           end development skills through building numerous projects. I am highly
