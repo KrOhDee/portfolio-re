@@ -13,21 +13,63 @@ const About = () => {
           </p>
         </div>
 
-        <p className="text-xl mt-20">
-          I developed my skills through building numerous projects with various
-          front-end technologies. I have a HUGE passion for learning and tend to
-          spend a lot of my free time learning new skills, or improving the
-          skills I already have. Self-improvement has always been very important
-          for me.
+        <p className="about-me mt-20">
+          I decided to pursue coding because I wanted to know how the
+          technologies I was around every day worked. I have solidified my front
+          end development skills through building numerous projects. I am highly
+          proficient with{' '}
+          <span className="font-bold text-orange-500">React</span> and{' '}
+          <span className="font-bold text-orange-500">TypeScript</span>. I am
+          confident creating reusable components, and using state, as well as
+          props, to render dynamic content. I am proficient with{' '}
+          <span className="font-bold text-orange-500">React hooks</span>,{' '}
+          <span className="font-bold text-orange-500">Redux</span>, and{' '}
+          <span className="font-bold text-orange-500">React Router</span>. I am
+          proficient with{' '}
+          <span className="font-bold text-orange-500">HTML</span>, and can
+          create well-structured semantic documents. I am familiar with{' '}
+          <span className="font-bold text-orange-500">ARIA</span> , as well as{' '}
+          <span className="font-bold text-orange-500">SEO</span>. I have strong{' '}
+          <span className="font-bold text-orange-500">CSS</span> skills and am
+          proficient with Grid, Flexbox,{' '}
+          <span className="font-bold text-orange-500">responsive design</span>,
+          box model, <span className="font-bold text-orange-500">SCSS</span>,{' '}
+          <span className="font-bold text-orange-500">Bootstrap</span>, and{' '}
+          <span className="font-bold text-orange-500">Tailwind</span>. I have
+          also used <span className="font-bold text-orange-500">Jest</span> for
+          testing in some of my projects.
+          <br />
         </p>
 
         <br />
 
-        <p className="text-xl">
-          I am really confident in my problem solving skills, as they have
-          allowed me to work through many challenging projects. A key philosophy
-          that I follow is: breaking down complex problems into smaller, more
-          manageable ones, is the key to success, both in coding and in life.
+        <p className="about-me">
+          As for my non technical skills/traits, I would like to start with my{' '}
+          <span className="font-bold text-orange-500">
+            problem solving skills
+          </span>
+          , which have allowed me to work through challenging projects. My go-to
+          strategy is to always break down big problems into smaller ones, and
+          go from there. I also have{' '}
+          <span className="font-bold text-orange-500">
+            strong communication
+          </span>{' '}
+          skills, a keen{' '}
+          <span className="font-bold text-orange-500">eye for detail</span>, and
+          great
+          <span className="font-bold text-orange-500"> time management </span>
+          and{' '}
+          <span className="font-bold text-orange-500">
+            organizational skills
+          </span>
+          . However, the most important trait I posses is an{' '}
+          <span className="font-bold text-orange-500">
+            eagerness to learn and grow
+          </span>
+          . Although I have learned a lot about web development, I know there is
+          much more to learn, and I am looking forward to that. I am always open
+          to feedback and constructive criticism. I believe that is a key factor
+          in being a successful developer, as well as a successful individual.
         </p>
       </div>
     </div>

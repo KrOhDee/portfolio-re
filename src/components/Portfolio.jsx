@@ -28,7 +28,7 @@ const Portfolio = () => {
       href: 'https://splendid-empanada-6175ce.netlify.app/',
       href2: 'https://github.com/KrOhDee/admin-dashboard',
       tooltip: 'Admin Dashboard',
-      desc: 'This is a dashboard for an administrative interface, styled with SCSS. It has a clean design with many icons, buttons, images, and more, all displayed beautifully and effectively.',
+      desc: 'This is a dashboard for an administrative interface, styled with SCSS. It has a clean design with many icons, buttons, images, and more, all layed out beautifully.',
     },
     {
       id: 4,
@@ -36,7 +36,7 @@ const Portfolio = () => {
       href: 'https://sage-chebakia-6c4906.netlify.app/',
       href2: 'https://github.com/KrOhDee/a-landing-page',
       tooltip: 'Landing Page',
-      desc: 'This is a beautiful landing page made with responsiveness being a priority. The project was styled with CSS and features a header with the company name and a navigation bar, a section showcasing food and drinks, a call-to-action, and a footer.',
+      desc: 'This is a beautiful landing page made with responsiveness being a priority. The project was styled with CSS and features: a header with the company name and a navigation bar, a section showcasing food and drinks, a call-to-action, and a footer.',
     },
   ];
 
@@ -51,7 +51,8 @@ const Portfolio = () => {
             Portfolio
           </p>
           <p className="py-6">
-            Here are some of my projects. Hover over them for a description!
+            Here are some of my projects. Hover over them for a short
+            description!
           </p>
         </div>
 
