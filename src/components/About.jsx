@@ -15,9 +15,9 @@ const About = () => {
 
         <p className="about-me mt-15">
           I decided to pursue coding because I wanted to know how the
-          technologies I was around every day worked. I have solidified my front
-          end development skills through building numerous projects. I am highly
-          proficient with{' '}
+          technologies I was around every day worked. I have solidified my
+          front-end development skills through building numerous projects. I am
+          highly proficient with{' '}
           <span className="font-bold text-orange-500">React</span> and{' '}
           <span className="font-bold text-orange-500">TypeScript</span>. I am
           confident creating reusable components, and using state, as well as
@@ -25,7 +25,7 @@ const About = () => {
           <span className="font-bold text-orange-500">React hooks</span>,{' '}
           <span className="font-bold text-orange-500">Redux</span>, and{' '}
           <span className="font-bold text-orange-500">React Router</span>. I am
-          proficient with{' '}
+          also proficient with{' '}
           <span className="font-bold text-orange-500">HTML</span>, and can
           create well-structured semantic documents. I am familiar with{' '}
           <span className="font-bold text-orange-500">ARIA</span> , as well as{' '}
@@ -33,7 +33,7 @@ const About = () => {
           <span className="font-bold text-orange-500">CSS</span> skills and am
           proficient with Grid, Flexbox,{' '}
           <span className="font-bold text-orange-500">responsive design</span>,
-          box model, <span className="font-bold text-orange-500">SCSS</span>,{' '}
+          <span className="font-bold text-orange-500">SCSS</span>,{' '}
           <span className="font-bold text-orange-500">Bootstrap</span>, and{' '}
           <span className="font-bold text-orange-500">Tailwind</span>. I have
           also used <span className="font-bold text-orange-500">Jest</span> for
@@ -44,7 +44,7 @@ const About = () => {
         <br />
 
         <p className="about-me">
-          As for my non technical skills/traits, I would like to start with my{' '}
+          As for my non-technical skills/traits, I would like to start with my{' '}
           <span className="font-bold text-orange-500">
             problem solving skills
           </span>
