@@ -32,7 +32,7 @@ const About = () => {
           <span className="font-bold text-orange-500">SEO</span>. I have strong{' '}
           <span className="font-bold text-orange-500">CSS</span> skills and am
           proficient with Grid, Flexbox,{' '}
-          <span className="font-bold text-orange-500">responsive design</span>,
+          <span className="font-bold text-orange-500">responsive design</span>,{' '}
           <span className="font-bold text-orange-500">SCSS</span>,{' '}
           <span className="font-bold text-orange-500">Bootstrap</span>, and{' '}
           <span className="font-bold text-orange-500">Tailwind</span>. I have
