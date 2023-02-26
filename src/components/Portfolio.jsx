@@ -12,7 +12,7 @@ const Portfolio = () => {
       href: 'https://spontaneous-dodol-7ffeb5.netlify.app/#/',
       href2: 'https://github.com/KrOhDee/shopping-cart',
       tooltip: 'Shopping Cart',
-      desc: 'React e-commerce site with shopping cart. Browse, add to cart, remove from cart, view total. Pulls items from API, styled with CSS.',
+      desc: "React e-commerce site with shopping cart. Browse, add to cart, remove from cart, view total. You can also click on an item to get a description, and it's rating. From there you can add it to the cart or close the page, and keep browsing.  Pulls items from API, styled with CSS.",
     },
     {
       id: 2,
