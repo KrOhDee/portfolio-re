@@ -14,32 +14,28 @@ const About = () => {
         </div>
 
         <p className="about-me mt-15">
-          I initially decided to pursue coding because I wanted to know how the
-          technologies I was around every day worked. I have solidified my
-          skills through building numerous projects. I am highly proficient with{' '}
+          Some of my hobbies include: going to the gym, training martial arts,
+          language learning, gaming, and web development of course! I have
+          solidified my web development skills through building numerous
+          projects. I am highly proficient with{' '}
           <span className="font-bold text-orange-500">React</span> and{' '}
-          <span className="font-bold text-orange-500">TypeScript</span>. I am
-          confident creating reusable components, and using state, as well as
-          props, to render dynamic content. I am proficient with{' '}
+          <span className="font-bold text-orange-500">TypeScript</span>. I have
+          experience with{' '}
           <span className="font-bold text-orange-500">React hooks</span>,{' '}
           <span className="font-bold text-orange-500">Redux</span>, and{' '}
-          <span className="font-bold text-orange-500">React Router</span>. I am
-          also proficient with{' '}
-          <span className="font-bold text-orange-500">HTML</span>, and can
-          create well-structured semantic documents. I am familiar with{' '}
-          <span className="font-bold text-orange-500">ARIA</span> , as well as{' '}
-          <span className="font-bold text-orange-500">SEO</span>. I have strong{' '}
-          <span className="font-bold text-orange-500">CSS</span> skills and am
-          proficient with Grid, Flexbox,{' '}
+          <span className="font-bold text-orange-500">React Router</span>. I can
+          create well-structured semantic{' '}
+          <span className="font-bold text-orange-500">HTML</span> documents. I
+          have strong <span className="font-bold text-orange-500">CSS</span>{' '}
+          skills and am proficient with Grid, Flexbox,{' '}
           <span className="font-bold text-orange-500">responsive design</span>,{' '}
           <span className="font-bold text-orange-500">SCSS</span>,{' '}
           <span className="font-bold text-orange-500">Bootstrap</span>, and{' '}
           <span className="font-bold text-orange-500">Tailwind</span>. I have
           also used <span className="font-bold text-orange-500">Jest</span> for
-          testing in some of my projects. I began my learning with the
-          front-end, and that is where I have spent the most time. However, I
-          have also learned{' '}
-          <span className="font-bold text-orange-500">NodeJS</span>,{' '}
+          testing in some of my projects. I began my learning on the front-end,
+          and that is where I have spent the most time. However, I have also
+          learned <span className="font-bold text-orange-500">NodeJS</span>,{' '}
           <span className="font-bold text-orange-500">MongoDB</span>, and{' '}
           <span className="font-bold text-orange-500">Express</span>. Overall, I
           have a solid understanding of full-stack web development, and I am
@@ -72,6 +68,7 @@ const About = () => {
           <span className="font-bold text-orange-500">
             eagerness to learn and grow
           </span>
+          .
         </p>
       </div>
     </div>
