@@ -14,10 +14,9 @@ const About = () => {
         </div>
 
         <p className="about-me mt-15">
-          I decided to pursue coding because I wanted to know how the
+          I initially decided to pursue coding because I wanted to know how the
           technologies I was around every day worked. I have solidified my
-          front-end development skills through building numerous projects. I am
-          highly proficient with{' '}
+          skills through building numerous projects. I am highly proficient with{' '}
           <span className="font-bold text-orange-500">React</span> and{' '}
           <span className="font-bold text-orange-500">TypeScript</span>. I am
           confident creating reusable components, and using state, as well as
@@ -37,7 +36,14 @@ const About = () => {
           <span className="font-bold text-orange-500">Bootstrap</span>, and{' '}
           <span className="font-bold text-orange-500">Tailwind</span>. I have
           also used <span className="font-bold text-orange-500">Jest</span> for
-          testing in some of my projects.
+          testing in some of my projects. I began my learning with the
+          front-end, and that is where I have spent the most time. However, I
+          have also learned{' '}
+          <span className="font-bold text-orange-500">NodeJS</span>,{' '}
+          <span className="font-bold text-orange-500">MongoDB</span>, and{' '}
+          <span className="font-bold text-orange-500">Express</span>. Overall, I
+          have a solid understanding of full-stack web development, and I am
+          improving every day.
           <br />
         </p>
 
