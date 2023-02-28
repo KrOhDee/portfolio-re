@@ -72,10 +72,6 @@ const About = () => {
           <span className="font-bold text-orange-500">
             eagerness to learn and grow
           </span>
-          . Although I have learned a lot about web development, I know there is
-          much more to learn, and I am looking forward to that. I am always open
-          to feedback and constructive criticism, as I believe that is key to
-          being a great developer.
         </p>
       </div>
     </div>
