@@ -7,24 +7,21 @@ import reactImage from '../assets/react.svg';
 import bootstrap from '../assets/bootstrap.svg';
 import sass from '../assets/sass.svg';
 import tailwind from '../assets/tailwind.svg';
-import git from '../assets/git.svg';
 import nodejs from '../assets/nodejs.svg';
-import express from '../assets/express.svg';
-import mongodb from '../assets/mongodb.svg';
 
 const Skills = () => {
   const techs = [
     {
       id: 1,
-      src: express,
-      title: 'Express',
-      style: 'shadow-white',
+      src: html,
+      title: 'HTML',
+      style: 'shadow-orange-500',
     },
     {
       id: 2,
-      src: mongodb,
-      title: 'MongoDB',
-      style: 'shadow-green-500',
+      src: css,
+      title: 'CSS',
+      style: 'shadow-blue-400',
     },
     {
       id: 3,
@@ -58,9 +55,9 @@ const Skills = () => {
     },
     {
       id: 8,
-      src: git,
-      title: 'Git',
-      style: 'shadow-red-600',
+      src: tailwind,
+      title: 'Tailwind',
+      style: 'shadow-blue-400',
     },
   ];
 
