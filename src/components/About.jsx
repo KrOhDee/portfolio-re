@@ -38,8 +38,8 @@ const About = () => {
           learned <span className="font-bold text-orange-500">NodeJS</span>,{' '}
           <span className="font-bold text-orange-500">MongoDB</span>, and{' '}
           <span className="font-bold text-orange-500">Express</span>. Overall, I
-          have a solid understanding of full-stack web development, and I am
-          improving every day.
+          have a solid understanding of web development, and I am improving
+          every day.
           <br />
         </p>
 

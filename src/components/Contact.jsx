@@ -17,16 +17,8 @@ const Contact = () => {
         <div className=" flex justify-center items-center border-l-2 border-orange-500">
           <ul className="p-3 li space-y-6">
             <li>Name: Luis Aleman</li>
-            <li>
-              Location: Miami Gardens, Fl (Willing to relocate anywhere in the
-              country)
-            </li>
             <li>Phone Number: 786-314-4665</li>
             <li>Email: lja11202526@gmail.com</li>
-            <li>
-              There are clickable icons on the left side of the screen with my
-              LinkedIn, GitHub, and Email
-            </li>
           </ul>
         </div>
       </div>
