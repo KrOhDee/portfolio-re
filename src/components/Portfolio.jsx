@@ -2,7 +2,7 @@ import React from 'react';
 import landingPage from '../assets/portfolio/landing-page.png';
 import weatherApp from '../assets/portfolio/weather-app.png';
 import shoppingCart from '../assets/portfolio/shopping-cart.png';
-import adminDashboard from '../assets/portfolio/admin-dashboard.jpeg';
+import eventPlanningPage from '../assets/portfolio/event-page.png';
 
 const Portfolio = () => {
   const portfolios = [
@@ -13,6 +13,7 @@ const Portfolio = () => {
       href2: 'https://github.com/KrOhDee/shopping-cart',
       tooltip: 'Shopping Cart',
       desc: "React e-commerce site with shopping cart. Browse, add to cart, remove from cart, view total. You can also click on an item to get a description, and it's rating. From there you can add it to the cart or close the page, and keep browsing.  Pulls items from API, styled with CSS.",
+      desc2: 'React, CSS, Bootstrap',
     },
     {
       id: 2,
@@ -21,14 +22,16 @@ const Portfolio = () => {
       href2: 'https://github.com/KrOhDee/weather-app',
       tooltip: 'Weather App',
       desc: 'A weather app made with Vanilla JS and styled with CSS. This app displays the temperature, a weather description, and a feels like temperature for your selected location. Plus, it includes fun weather icons to give you a visual representation of the current weather conditions.',
+      desc2: 'JavaScript, CSS',
     },
     {
       id: 3,
-      src: adminDashboard,
-      href: 'https://splendid-empanada-6175ce.netlify.app/',
-      href2: 'https://github.com/KrOhDee/admin-dashboard',
-      tooltip: 'Admin Dashboard',
-      desc: 'This is a dashboard for an administrative interface, styled with SCSS. It has a clean design with many icons, buttons, images, and more, all layed out beautifully.',
+      src: eventPlanningPage,
+      href: 'https://fanciful-klepon-87b5cd.netlify.app/',
+      href2: 'https://github.com/KrOhDee/rainfocus',
+      tooltip: 'Event Planning Page',
+      desc: 'This is a page for an event planning site that was built with React, and styled with SCSS. It has a clean design that looks great on all screen sizes.',
+      desc2: 'React, SCSS',
     },
     {
       id: 4,
@@ -37,6 +40,7 @@ const Portfolio = () => {
       href2: 'https://github.com/KrOhDee/a-landing-page',
       tooltip: 'Landing Page',
       desc: 'This is a beautiful landing page made with responsiveness being a priority. The project was styled with CSS and features: a header with the company name and a navigation bar, a section showcasing food and drinks, a call-to-action, and a footer.',
+      desc2: 'CSS',
     },
   ];
 
@@ -57,11 +61,12 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src, href, href2, desc }) => (
+          {portfolios.map(({ id, src, href, href2, desc, desc2 }) => (
             <div
               key={id}
-              className="shadow-md shadow-gray-600 rounded-lg portfolio-item"
+              className="border border-double border-2 border-orange-500 rounded-lg portfolio-item p-3"
             >
+              <p>{desc2}</p>
               <div className="image-wrapper">
                 <a target="_blank" href={href}>
                   <img
