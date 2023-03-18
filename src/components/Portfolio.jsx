@@ -13,7 +13,7 @@ const Portfolio = () => {
       href2: 'https://github.com/KrOhDee/shopping-cart',
       tooltip: 'Shopping Cart',
       desc: "React e-commerce site with shopping cart. Browse, add to cart, remove from cart, view total. You can also click on an item to get a description, and it's rating. From there you can add it to the cart or close the page, and keep browsing.  Pulls items from API, styled with CSS.",
-      desc2: 'React, CSS, Bootstrap',
+      desc2: 'React, Redux, CSS, Bootstrap',
     },
     {
       id: 2,
