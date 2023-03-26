@@ -15,9 +15,9 @@ const About = () => {
 
         <p className="about-me mt-15">
           Some of my hobbies include: going to the gym, training martial arts,
-          language learning, gaming, and web development of course! I have
-          solidified my web development skills through building numerous
-          projects. I am highly proficient with{' '}
+          language learning, gaming, and coding of course! I have solidified my
+          coding skills through building numerous projects. I am highly
+          proficient with{' '}
           <span className="font-bold text-orange-500">React</span> and{' '}
           <span className="font-bold text-orange-500">TypeScript</span>. I have
           experience with{' '}
