@@ -1,5 +1,6 @@
 import React from 'react';
-import landingPage from '../assets/portfolio/landing-page.png';
+//import landingPage from '../assets/portfolio/landing-page.png';
+import theJournal from '../assets/portfolio/the-journal.png';
 import weatherApp from '../assets/portfolio/weather-app.png';
 import shoppingCart from '../assets/portfolio/shopping-cart.png';
 import eventPlanningPage from '../assets/portfolio/event-page.png';
@@ -17,12 +18,12 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      src: weatherApp,
-      href: 'https://silver-froyo-fd1427.netlify.app/',
-      href2: 'https://github.com/KrOhDee/weather-app',
-      tooltip: 'Weather App',
-      desc: 'A weather app made with Vanilla JS and styled with CSS. This app displays the temperature, a weather description, and a feels like temperature for your selected location. Plus, it includes fun weather icons to give you a visual representation of the current weather conditions.',
-      desc2: 'JavaScript, CSS',
+      src: theJournal,
+      href: 'https://the-journal.herokuapp.com/',
+      href2: 'https://github.com/KrOhDee/the-journal',
+      tooltip: 'Book List',
+      desc: 'A book list that allows users to add, view, and delete books from a MongoDB database using CRUD operations. Users can also search for books by title.',
+      desc2: 'NodeJS, Express, MongoDB, JavaScript, EJS, Bootstrap',
     },
     {
       id: 3,
@@ -32,15 +33,6 @@ const Portfolio = () => {
       tooltip: 'Event Planning Page',
       desc: 'This is a page for an event planning site that was built with React, and styled with SCSS. It has a clean design that looks great on all screen sizes.',
       desc2: 'React, SCSS',
-    },
-    {
-      id: 4,
-      src: landingPage,
-      href: 'https://sage-chebakia-6c4906.netlify.app/',
-      href2: 'https://github.com/KrOhDee/a-landing-page',
-      tooltip: 'Landing Page',
-      desc: 'This is a beautiful landing page made with responsiveness being a priority. The project was styled with CSS and features: a header with the company name and a navigation bar, a section showcasing food and drinks, a call-to-action, and a footer.',
-      desc2: 'CSS',
     },
   ];
 
