@@ -1,7 +1,6 @@
 import React from 'react';
-//import landingPage from '../assets/portfolio/landing-page.png';
 import theJournal from '../assets/portfolio/the-journal.png';
-import weatherApp from '../assets/portfolio/weather-app.png';
+import jitsuCavern from '../assets/portfolio/jitsuCavern.png';
 import shoppingCart from '../assets/portfolio/shopping-cart.png';
 import eventPlanningPage from '../assets/portfolio/event-page.png';
 
@@ -12,7 +11,7 @@ const Portfolio = () => {
       src: shoppingCart,
       href: 'https://spontaneous-dodol-7ffeb5.netlify.app/#/',
       href2: 'https://github.com/KrOhDee/shopping-cart',
-      tooltip: 'Shopping Cart',
+      tooltip: 'E-commerce Site',
       desc: "React e-commerce site with shopping cart. Browse, add to cart, remove from cart, view total. You can also click on an item to get a description, and it's rating. From there you can add it to the cart or close the page, and keep browsing.  Pulls items from API, styled with CSS.",
       desc2: 'React, Redux, CSS, Bootstrap',
     },
@@ -33,6 +32,15 @@ const Portfolio = () => {
       tooltip: 'Event Planning Page',
       desc: 'This is a page for an event planning site that was built with React, and styled with SCSS. It has a clean design that looks great on all screen sizes.',
       desc2: 'React, SCSS',
+    },
+    {
+      id: 4,
+      src: jitsuCavern,
+      href: 'https://jiu-jitsu-library-41b02.web.app/',
+      href2: 'https://github.com/KrOhDee/jiu-jitsu-video-library/',
+      tooltip: 'Jiu-Jitsu Video Site',
+      desc: 'Web application that allows users to search for and watch Jiu-Jitsu related videos from YouTube. Users can also sign up or sign in to their account and save videos to their playlist across sessions.',
+      desc2: 'React, Firebase, Jest, CSS',
     },
   ];
 
