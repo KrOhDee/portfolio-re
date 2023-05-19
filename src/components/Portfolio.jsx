@@ -17,12 +17,12 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      src: theJournal,
-      href: 'https://the-journal.herokuapp.com/',
-      href2: 'https://github.com/KrOhDee/the-journal',
-      tooltip: 'Book List',
-      desc: 'A book list that allows users to add, view, and delete books from a MongoDB database using CRUD operations. Users can also search for books by title.',
-      desc2: 'NodeJS, Express, MongoDB, JavaScript, EJS, Bootstrap',
+      src: jitsuCavern,
+      href: 'https://jiu-jitsu-library-41b02.web.app/',
+      href2: 'https://github.com/KrOhDee/jiu-jitsu-video-library/',
+      tooltip: 'Jiu-Jitsu Video Site',
+      desc: 'Web application that allows users to search for and watch Jiu-Jitsu related videos from YouTube. Users can also sign up or sign in to their account and save videos to their playlist across sessions.',
+      desc2: 'React, Firebase, Jest, CSS',
     },
     {
       id: 3,
@@ -35,12 +35,12 @@ const Portfolio = () => {
     },
     {
       id: 4,
-      src: jitsuCavern,
-      href: 'https://jiu-jitsu-library-41b02.web.app/',
-      href2: 'https://github.com/KrOhDee/jiu-jitsu-video-library/',
-      tooltip: 'Jiu-Jitsu Video Site',
-      desc: 'Web application that allows users to search for and watch Jiu-Jitsu related videos from YouTube. Users can also sign up or sign in to their account and save videos to their playlist across sessions.',
-      desc2: 'React, Firebase, Jest, CSS',
+      src: theJournal,
+      href: 'https://the-journal.herokuapp.com/',
+      href2: 'https://github.com/KrOhDee/the-journal',
+      tooltip: 'Book List',
+      desc: "A book list that allows users to add, view, and delete books from a MongoDB database using CRUD operations. Users can also search for books by title. (Took the site down temporarily so I don't get charged.)",
+      desc2: 'NodeJS, Express, MongoDB, JavaScript, EJS, Bootstrap',
     },
   ];
 
