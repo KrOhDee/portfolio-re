@@ -12,16 +12,15 @@ const Home = () => {
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
           <h2 className="text-4xl sm:text-7xl font-bold text-white">
-            Front-End Developer
+            Software Engineer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
             I have{' '}
-            <span className="font-bold text-orange-500">over 1 year</span> of
+            <span className="font-bold text-orange-500">nearly 2 years</span> of
             experience with technologies like{' '}
-            <span className="font-bold text-orange-500">TypeScript</span>,{' '}
+            <span className="font-bold text-orange-500">JavaScript</span>,{' '}
             <span className="font-bold text-orange-500">React</span>,{' '}
-            <span className="font-bold text-orange-500">Bootstrap</span>, and
-            more!
+            <span className="font-bold text-orange-500">Python</span>, and more!
           </p>
 
           <div>
