@@ -6,7 +6,7 @@ import typescript from '../assets/typescript.svg';
 import reactImage from '../assets/react.svg';
 import bootstrap from '../assets/bootstrap.svg';
 import sass from '../assets/sass.svg';
-import tailwind from '../assets/tailwind.svg';
+import python from '../assets/python.svg';
 import nodejs from '../assets/nodejs.svg';
 
 const Skills = () => {
@@ -15,49 +15,49 @@ const Skills = () => {
       id: 1,
       src: nextjs,
       title: 'NextJS',
-      style: 'shadow-white',
+      style: 'bg-gradient-to-r from-amber-600 to-rose-500',
     },
     {
       id: 2,
       src: mongodb,
       title: 'MongoDB',
-      style: 'shadow-green-400',
+      style: 'bg-gradient-to-r from-green-800 to-lime-600',
     },
     {
       id: 3,
       src: typescript,
       title: 'TypeScript',
-      style: 'shadow-blue-500',
+      style: 'bg-gradient-to-r from-indigo-900 to-blue-800',
     },
     {
       id: 4,
       src: reactImage,
       title: 'React',
-      style: 'shadow-sky-400',
+      style: 'bg-gradient-to-r from-sky-400 to-sky-900',
     },
     {
       id: 5,
       src: bootstrap,
       title: 'Bootstrap',
-      style: 'shadow-purple-700',
+      style: 'bg-gradient-to-r from-purple-300 to-purple-900',
     },
     {
       id: 6,
       src: nodejs,
       title: 'NodeJS',
-      style: 'shadow-green-900',
+      style: 'bg-gradient-to-r from-green-700 to-green-900',
     },
     {
       id: 7,
       src: sass,
       title: 'Sass',
-      style: 'shadow-pink-400',
+      style: 'bg-gradient-to-r from-blue-800 to-pink-800',
     },
     {
       id: 8,
-      src: tailwind,
-      title: 'Tailwind',
-      style: 'shadow-blue-400',
+      src: python,
+      title: 'Python',
+      style: 'bg-gradient-to-r from-blue-800 to-yellow-400',
     },
   ];
 
