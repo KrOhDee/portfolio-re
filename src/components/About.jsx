@@ -21,7 +21,8 @@ const About = () => {
           but also fuels my creativity and problem-solving skills as a
           developer. I am currently enrolled in a Bachelor of Science in
           Software Engineering program, and I am expected to graduate in early
-          2024.
+          2024. I have also secured a position as a software engineer intern for
+          fall 2023.
         </p>
       </div>
     </div>
