@@ -9,7 +9,7 @@ const Portfolio = () => {
     {
       id: 1,
       src: shoppingCart,
-      href: 'https://spontaneous-dodol-7ffeb5.netlify.app/#/',
+      href: 'https://planetrandomitems.netlify.app/',
       href2: 'https://github.com/KrOhDee/shopping-cart',
       tooltip: 'E-commerce Site',
       desc: "React e-commerce site with shopping cart. Browse, add to cart, remove from cart, view total. You can also click on an item to get a description, and it's rating. From there you can add it to the cart or close the page, and keep browsing.  Pulls items from API, styled with CSS.",
@@ -27,7 +27,7 @@ const Portfolio = () => {
     {
       id: 3,
       src: eventPlanningPage,
-      href: 'https://fanciful-klepon-87b5cd.netlify.app/',
+      href: 'https://swanevents.netlify.app/',
       href2: 'https://github.com/KrOhDee/rainfocus',
       tooltip: 'Event Planning Page',
       desc: 'This is a page for an event planning site that was built with React, and styled with SCSS. It has a clean design that looks great on all screen sizes.',
