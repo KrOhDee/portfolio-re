@@ -39,7 +39,7 @@ const Portfolio = () => {
       href: 'https://the-journal.herokuapp.com/',
       href2: 'https://github.com/KrOhDee/the-journal',
       tooltip: 'Book List',
-      desc: "A book list that allows users to add, view, and delete books from a MongoDB database using CRUD operations. Users can also search for books by title. (Took the site down temporarily so I don't get charged.)",
+      desc: 'A book list that allows users to add, view, and delete books from a MongoDB database using CRUD operations. Users can also search for books by title. (Took the site down temporarily.)',
       desc2: 'NodeJS, Express, MongoDB, JavaScript, EJS, Bootstrap',
     },
   ];
