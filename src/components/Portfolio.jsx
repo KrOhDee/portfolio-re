@@ -26,15 +26,6 @@ const Portfolio = () => {
     },
     {
       id: 3,
-      src: eventPlanningPage,
-      href: 'https://swanevents.netlify.app/',
-      href2: 'https://github.com/KrOhDee/rainfocus',
-      tooltip: 'Event Planning Page',
-      desc: 'This is a page for an event planning site that was built with React, and styled with SCSS. It has a clean design that looks great on all screen sizes.',
-      desc2: 'React, SCSS',
-    },
-    {
-      id: 4,
       src: theJournal,
       href: 'https://the-journal.herokuapp.com/',
       href2: 'https://github.com/KrOhDee/the-journal',
@@ -56,7 +47,13 @@ const Portfolio = () => {
           </p>
           <p className="py-6">
             Here are some of my projects. Hover over them for a short
-            description!
+            description!{' '}
+            <a
+              className="text-xs text-orange-500"
+              href="https://onedisplayplace.netlify.app/"
+            >
+              (More projects)
+            </a>
           </p>
         </div>
 

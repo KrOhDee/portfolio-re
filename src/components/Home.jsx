@@ -15,9 +15,7 @@ const Home = () => {
             Software Engineer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            I have{' '}
-            <span className="font-bold text-orange-500">nearly 2 years</span> of
-            experience with technologies like{' '}
+            I have experience with technologies like{' '}
             <span className="font-bold text-orange-500">JavaScript</span>,{' '}
             <span className="font-bold text-orange-500">React</span>,{' '}
             <span className="font-bold text-orange-500">Python</span>, and more!
