@@ -50,6 +50,7 @@ const Portfolio = () => {
             description!{' '}
             <a
               className="text-xs text-orange-500"
+              target="_blank"
               href="https://onedisplayplace.netlify.app/"
             >
               (More projects)
