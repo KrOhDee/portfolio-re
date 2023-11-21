@@ -21,7 +21,7 @@ const About = () => {
           but also fuels my creativity and problem-solving skills as a
           developer. I am currently enrolled in a Bachelor of Science in
           Software Engineering program, and I am expected to graduate in
-          November 2023. I am also working as a Front-End Software Engineer
+          December 2023. I am also working as a Front-End Software Engineer
           Intern at HealthStream.
         </p>
       </div>
