@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div
       name="about"
-      className="w-full h-[850px] bg-gradient-to-b from-gray-800 to-black text-white "
+      className="w-full xs:h-[750px] sm:h-[850px] md:h-[850px] bg-gradient-to-b from-gray-800 to-black text-white "
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
@@ -13,7 +13,7 @@ const About = () => {
           </p>
         </div>
 
-        <p className="about-me mt-15">
+        <p className="about-me mt-15 ">
           Hi there! I'm Luis, a software engineer with a huge passion for tech.
           In my free time, you can usually find me working out, playing video
           games, bothering my cats, playing guitar, or language learning. I
