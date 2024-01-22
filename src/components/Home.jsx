@@ -34,7 +34,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div>
+        <div className="hidden sm:block">
           <img
             src={HeroImage}
             alt="my profile"
