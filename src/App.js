@@ -5,16 +5,18 @@ import Home from './components/Home';
 import NavBar from './components/NavBar';
 import Portfolio from './components/Portfolio';
 import SocialLinks from './components/SocialLinks';
+import { useState } from 'react';
 
 function App() {
+  const [activeComponent, setActiveComponent] = useState('home');
   return (
     <div>
-      <NavBar />
-      <Home />
-      <About />
-      <Portfolio />
-      <Skills />
-      <Contact />
+      <NavBar setActiveComponent={setActiveComponent} />
+      {activeComponent === 'home' && <Home />}
+      {activeComponent === 'about' && <About />}
+      {activeComponent === 'portfolio' && <Portfolio />}
+      {activeComponent === 'skills' && <Skills />}
+      {activeComponent === 'contact' && <Contact />}
 
       <SocialLinks />
     </div>

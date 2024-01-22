@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { Link } from 'react-scroll';
 
-const NavBar = () => {
+const NavBar = (props) => {
   const [nav, setNav] = useState(false);
 
   const links = [
@@ -40,7 +40,12 @@ const NavBar = () => {
             key={id}
             className="px-4 cursor-pointer capitalize font-medium text-orange-500 hover:scale-105 duration-200"
           >
-            <Link to={link} smooth duration={500}>
+            <Link
+              to={link}
+              smooth
+              duration={500}
+              onClick={() => props.setActiveComponent(link)}
+            >
               {link}
             </Link>
           </li>
@@ -62,7 +67,10 @@ const NavBar = () => {
               className="px-4 cursor-pointer capitalize py-6 text-4xl"
             >
               <Link
-                onClick={() => setNav(!nav)}
+                onClick={() => {
+                  setNav(!nav);
+                  props.setActiveComponent(link);
+                }}
                 to={link}
                 smooth
                 duration={500}

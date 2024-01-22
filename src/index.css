@@ -10,6 +10,14 @@
   }
 }
 
+body {
+  overflow: hidden;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
 .portfolio-item .image-wrapper {
   position: relative;
 }
