@@ -9,9 +9,21 @@ import { useState } from 'react';
 
 function App() {
   const [activeComponent, setActiveComponent] = useState('home');
+
+  const componentBgColors = {
+    home: 'bg-gradient-to-t from-black via-black to-gray-800',
+    about: 'bg-gradient-to-l from-gray-800 to-black',
+    portfolio: 'bg-gradient-to-t from-black via-black to-gray-800',
+    skills: 'bg-gradient-to-l from-gray-800 to-black',
+    contact: 'bg-gradient-to-r from-black via-black to-gray-800',
+  };
+
   return (
     <div>
-      <NavBar setActiveComponent={setActiveComponent} />
+      <NavBar
+        setActiveComponent={setActiveComponent}
+        bgColor={componentBgColors[activeComponent]}
+      />
       {activeComponent === 'home' && <Home />}
       {activeComponent === 'about' && <About />}
       {activeComponent === 'portfolio' && <Portfolio />}
