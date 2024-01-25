@@ -12,8 +12,9 @@ const Contact = () => {
             Contact
           </p>
           <p className="py-6">
-            Feel free to contact me any day of the week, preferably after 12pm
-            EST.
+            Feel free to contact me any day of the week, preferably via email.
+            If I don't answer your call please leave a voicemail or send me a
+            text message.
           </p>
         </div>
 
