@@ -1,12 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans&display=swap');
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
   html {
-    font-family: 'Shantell Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
   }
 }
 
