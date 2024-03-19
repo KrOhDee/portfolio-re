@@ -20,9 +20,8 @@ const Contact = () => {
 
         <div className=" flex justify-center items-center border-l-2 border-orange-500">
           <ul className="p-3 li space-y-6">
-            <li>Luis Aleman</li>
             <li>786-314-4665</li>
-            <li>lja11202526@gmail.com</li>
+            <li>ljdev24@gmail.com</li>
           </ul>
         </div>
       </div>

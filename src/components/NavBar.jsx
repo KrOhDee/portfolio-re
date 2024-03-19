@@ -34,7 +34,7 @@ const NavBar = (props) => {
     >
       <div>
         <h1 className="text-5xl font-signature ml-2 text-orange-500">
-          Luis <span className="text-orange-700">Aleman</span>
+          <span className="text-orange-700">:]</span>
         </h1>
       </div>
 
