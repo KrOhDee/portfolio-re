@@ -23,7 +23,7 @@ const Home = () => {
 
           <div>
             <a
-              href="/Martin_Luke_Dev_Resume.pdf"
+              href="/Aleman_Luis_Dev_Resume.pdf"
               download
               className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-yellow-300 to-orange-400 cursor-pointer"
             >
