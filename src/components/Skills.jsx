@@ -18,66 +18,77 @@ const Skills = () => {
       id: 1,
       src: nextjs,
       title: 'NextJS',
-      style: 'bg-gradient-to-r from-amber-600 to-rose-500',
+      link: 'https://nextjs.org/',
+      style: 'bg-gradient-to-r from-gray-300 to-gray-900',
     },
     {
       id: 2,
       src: mongodb,
       title: 'MongoDB',
+      link: 'https://www.mongodb.com/',
       style: 'bg-gradient-to-r from-green-800 to-lime-600',
     },
     {
       id: 3,
       src: typescript,
       title: 'TypeScript',
+      link: 'https://www.typescriptlang.org/',
       style: 'bg-gradient-to-r from-indigo-900 to-blue-800',
     },
     {
       id: 4,
       src: reactImage,
       title: 'React',
+      link: 'https://react.dev/',
       style: 'bg-gradient-to-r from-sky-400 to-sky-900',
     },
     {
       id: 5,
       src: bootstrap,
       title: 'Bootstrap',
+      link: 'https://getbootstrap.com/',
       style: 'bg-gradient-to-r from-purple-300 to-purple-900',
     },
     {
       id: 6,
       src: nodejs,
       title: 'NodeJS',
+      link: 'https://nodejs.org/en',
       style: 'bg-gradient-to-r from-green-700 to-green-900',
     },
     {
       id: 7,
       src: sass,
       title: 'Sass',
+      link: 'https://sass-lang.com/',
       style: 'bg-gradient-to-r from-blue-800 to-pink-800',
     },
     {
       id: 8,
       src: python,
       title: 'Python',
+      link: 'https://www.python.org/',
       style: 'bg-gradient-to-r from-blue-800 to-yellow-400',
     },
     {
       id: 9,
       src: mysql,
       title: 'MySQL',
+      link: 'https://www.mysql.com/',
       style: 'bg-gradient-to-r from-black to-blue-700',
     },
     {
       id: 10,
       src: js,
       title: 'JavaScript',
+      link: 'https://www.javascript.com/',
       style: 'bg-gradient-to-r from-yellow-300 to-yellow-900',
     },
     {
       id: 11,
       src: tailwind,
       title: 'TailwindCSS',
+      link: 'https://tailwindcss.com/',
       style: 'bg-gradient-to-r from-teal-600 to-teal-900',
     },
   ];
@@ -93,14 +104,16 @@ const Skills = () => {
         </p>
 
         <div className="w-full overflow-auto max-h-[500px] grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
-          {techs.map(({ id, src, title, style }) => (
-            <div
-              key={id}
-              className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}
-            >
-              <img src={src} alt="" className="w-20 mx-auto" />
-              <p className="mt-4">{title}</p>
-            </div>
+          {techs.map(({ id, src, title, link, style }) => (
+            <a target="_blank" href={link}>
+              <div
+                key={id}
+                className={`shadow-md hover:scale-95 duration-500 py-2 rounded-lg ${style}`}
+              >
+                <img src={src} alt="" className="w-20 mx-auto" />
+                <p className="mt-4">{title}</p>
+              </div>
+            </a>
           ))}
         </div>
       </div>

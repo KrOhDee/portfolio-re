@@ -4,6 +4,7 @@ import jitsuCavern from '../assets/portfolio/jitsuCavern.png';
 import shoppingCart from '../assets/portfolio/shopping-cart.png';
 import eventPlanningPage from '../assets/portfolio/event-page.png';
 import dash from '../assets/portfolio/img-dash.png';
+import fixFleet from '../assets/portfolio/fix-fleet.png';
 import map from '../assets/portfolio/img-ang.png';
 import fres from '../assets/portfolio/img-fres.png';
 import weather from '../assets/portfolio/weather-app.png';
@@ -12,24 +13,33 @@ const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: shoppingCart,
-      href: 'https://planetrandomitems.netlify.app/',
-      href2: 'https://github.com/KrOhDee/shopping-cart',
-      tooltip: 'E-commerce Site',
-      desc: "React e-commerce site with shopping cart. Browse, add to cart, remove from cart, view total. You can also click on an item to get a description, and it's rating. Pulls items from API, styled with CSS.",
-      desc2: 'React, Redux, FakeStore API, CSS, Bootstrap',
+      src: fixFleet,
+      href: 'https://ticket-app-bice-six.vercel.app/',
+      href2: 'https://github.com/KrOhDee/ticket-app/',
+      tooltip: 'IT Ticketing Web App',
+      desc: 'Full-stack IT ticketing application with custom built endpoints that integrate dynamic API routing, enabling ticket creation, updates, and deletions directly within the application interface.',
+      desc2: 'Next.js, React, MongoDB, TailwindCSS, JavaScript',
     },
     {
       id: 2,
+      src: shoppingCart,
+      href: 'https://planetrandomitems.netlify.app/',
+      href2: 'https://github.com/KrOhDee/shopping-cart',
+      tooltip: 'E-commerce Web App',
+      desc: "React e-commerce web app with shopping cart. Browse, add to cart, remove from cart, view total. You can also click on an item to get a description, and it's rating. Pulls items from API, styled with CSS.",
+      desc2: 'React, Redux, FakeStore API, CSS, Bootstrap',
+    },
+    {
+      id: 3,
       src: jitsuCavern,
       href: 'https://jiu-jitsu-library-41b02.web.app/',
       href2: 'https://github.com/KrOhDee/jiu-jitsu-video-library/',
-      tooltip: 'Jiu-Jitsu Video Site',
+      tooltip: 'Jiu-Jitsu Video Streaming Web App',
       desc: 'Web application that allows users to search for and watch Jiu-Jitsu related videos from YouTube. Users can also sign up or sign in to their account and save videos to their playlist across sessions.',
       desc2: 'React, Firebase, YouTube API, Jest, CSS',
     },
     {
-      id: 3,
+      id: 4,
       src: theJournal,
       href: 'none',
       href2: 'https://github.com/KrOhDee/the-journal',
@@ -38,7 +48,7 @@ const Portfolio = () => {
       desc2: 'NodeJS, Express, MongoDB, JavaScript, EJS, Bootstrap',
     },
     {
-      id: 4,
+      id: 5,
       src: fres,
       href: 'https://fresnoscafe.netlify.app/',
       href2: 'https://github.com/KrOhDee/a-landing-page',
@@ -47,7 +57,7 @@ const Portfolio = () => {
       desc2: 'HTML, CSS, Responsive Web Design Adherence',
     },
     {
-      id: 5,
+      id: 6,
       src: weather,
       href: 'https://simpleweatherwatch.netlify.app/',
       href2: 'https://github.com/KrOhDee/weather-app',
@@ -56,7 +66,7 @@ const Portfolio = () => {
       desc2: 'CSS, JavaScript, OpenWeatherApp API',
     },
     {
-      id: 6,
+      id: 7,
       src: map,
       href: 'none',
       href2: 'https://github.com/KrOhDee/ctmap',
@@ -65,13 +75,13 @@ const Portfolio = () => {
       desc2: 'TypeScript, Angular, CSS, Geonames API',
     },
     {
-      id: 7,
+      id: 8,
       src: eventPlanningPage,
       href: 'https://swanevents.netlify.app/',
       href2: 'https://github.com/KrOhDee/rainfocus',
       tooltip: 'Event Planning Site',
       desc: "Event planning page built with React, composed of numerous components. It's designed to be fully responsive.",
-      desc2: 'React, SCSS, JavaScript',
+      desc2: 'React, SCSS, JavaScript, Responsive Web Design Adherence',
     },
   ];
 
@@ -102,11 +112,11 @@ const Portfolio = () => {
                 <a target="_blank" href={href}>
                   <img
                     src={src}
-                    alt=""
-                    className="rounded-md duration-200 hover:scale-105"
+                    alt="Project home page"
+                    className="rounded-md duration-200 hover:scale-105 h-[140px] mx-auto"
                   />
                 </a>
-                <div className="overlay absolute top-0 left-0 w-full h-full opacity-0 transition duration-200 ease-in-out flex justify-center items-center">
+                <div className="overlay absolute top-0 left-0 w-full h-full opacity-0 transition duration-200 ease-in-out flex justify-center items-center text-center">
                   <p className="desc">{desc}</p>
                 </div>
               </div>
