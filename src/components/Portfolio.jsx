@@ -63,7 +63,7 @@ const Portfolio = () => {
       href2: 'https://github.com/KrOhDee/weather-app',
       tooltip: 'Weather App',
       desc: 'Weather application built using CSS and JavaScript. Utilizes the OpenWeatherMap API to provide real-time weather information.',
-      desc2: 'CSS, JavaScript, OpenWeatherApp API',
+      desc2: 'HTML, CSS, JavaScript, OpenWeatherApp API',
     },
     {
       id: 7,
@@ -87,49 +87,49 @@ const Portfolio = () => {
 
   return (
     <div
-      name="portfolio"
-      className="bg-gradient-to-b from-black to-gray-800 w-full text-white lg:h-[1500px] xs:h-[950px] s:h-[800px] md:h-[1100px] lg:pt-40 xs:pt-16 sm:pt-0 md:pt-16"
+      name='portfolio'
+      className='bg-gradient-to-b from-black to-gray-800 w-full text-white lg:h-[1500px] xs:h-[950px] s:h-[800px] md:h-[1100px] lg:pt-40 xs:pt-16 sm:pt-0 md:pt-16'
     >
-      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full lg:h-[500px] sm:h-[800px] md:h-[650px] xs:h-[600px]">
-        <div className="pb-8">
-          <p className="text-4xl font-bold border-b-4 border-orange-500">
+      <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full lg:h-[500px] sm:h-[800px] md:h-[650px] xs:h-[600px]'>
+        <div className='pb-8'>
+          <p className='text-4xl font-bold border-b-4 border-orange-500'>
             Portfolio
           </p>
-          <p className="py-6">
+          <p className='py-6'>
             Here are some of my projects. Hover over them for a short
             description!{' '}
           </p>
         </div>
 
-        <div className="overflow-auto lg:min-h-[480px] md:min-h-[400px] sm:h-[400px] xs:min-h-[300px] grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
+        <div className='overflow-auto lg:min-h-[480px] md:min-h-[400px] sm:h-[400px] xs:min-h-[300px] grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
           {portfolios.map(({ id, src, href, href2, desc, desc2 }) => (
             <div
               key={id}
-              className="border border-double border-2 border-orange-500 rounded-lg portfolio-item p-3"
+              className='border border-double border-2 border-orange-500 rounded-lg portfolio-item p-3'
             >
               <p>{desc2}</p>
-              <div className="image-wrapper">
-                <a target="_blank" href={href}>
+              <div className='image-wrapper'>
+                <a target='_blank' href={href}>
                   <img
                     src={src}
-                    alt="Project home page"
-                    className="rounded-md duration-200 hover:scale-105 h-[140px] mx-auto"
+                    alt='Project home page'
+                    className='rounded-md duration-200 hover:scale-105 h-[140px] mx-auto'
                   />
                 </a>
-                <div className="overlay absolute top-0 left-0 w-full h-full opacity-0 transition duration-200 ease-in-out flex justify-center items-center text-center">
-                  <p className="desc">{desc}</p>
+                <div className='overlay absolute top-0 left-0 w-full h-full opacity-0 transition duration-200 ease-in-out flex justify-center items-center text-center'>
+                  <p className='desc'>{desc}</p>
                 </div>
               </div>
-              <div className="flex items-center justify-center">
+              <div className='flex items-center justify-center'>
                 {href !== 'none' && (
-                  <a target="_blank" href={href}>
-                    <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                  <a target='_blank' href={href}>
+                    <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>
                       Site
                     </button>
                   </a>
                 )}
-                <a target="_blank" href={href2}>
-                  <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                <a target='_blank' href={href2}>
+                  <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>
                     Code
                   </button>
                 </a>
