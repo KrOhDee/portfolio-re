@@ -13,16 +13,17 @@ const Home = () => {
       name='home'
       className='h-screen w-full bg-gradient-to-b from-black via-black to-gray-800'
     >
-      <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
-        <div className='flex flex-col justify-center h-full'>
+      <div className='xl:max-w-[1140px] mx-auto flex flex-col items-center justify-center h-full md:flex-row px-8'>
+        <div className='flex flex-col justify-center h-full mr-8 sm:gap-0 xs:gap-4'>
           <h2 className='text-4xl sm:text-7xl font-bold text-white'>
-            Web Developer
+            Web Development + Data
           </h2>
           <p className='text-gray-500 py-4 max-w-md'>
             I have experience with technologies like{' '}
             <span className='font-bold text-orange-500'>JavaScript</span>,{' '}
             <span className='font-bold text-orange-500'>React</span>,{' '}
-            <span className='font-bold text-orange-500'>Tailwind</span>, and
+            <span className='font-bold text-orange-500'>SQL</span>,{' '}
+            <span className='font-bold text-orange-500'>Tableau</span>, and
             more!
           </p>
 
@@ -40,7 +41,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div className='hidden sm:block'>
+        <div className='hidden lg:block'>
           <img
             src={HeroImage}
             alt='my profile'

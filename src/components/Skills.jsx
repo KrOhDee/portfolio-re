@@ -95,23 +95,23 @@ const Skills = () => {
 
   return (
     <div
-      name="skills"
-      className="bg-gradient-to-b from-gray-800 to-black w-full h-[1500px] lg:pt-14 xs:pt-12 sm:pt-16"
+      name='skills'
+      className='bg-gradient-to-b from-gray-800 to-black w-full h-[1500px] lg:pt-14 xs:pt-12 sm:pt-16'
     >
-      <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-screen text-white">
-        <p className="text-4xl font-bold border-b-4 border-orange-500 p-3 inline">
+      <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-screen text-white'>
+        <p className='text-4xl font-bold border-b-4 border-orange-500 p-3 inline'>
           Skills/Technologies
         </p>
 
-        <div className="w-full overflow-auto max-h-[500px] grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
+        <div className='w-full overflow-auto max-h-[500px] grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0'>
           {techs.map(({ id, src, title, link, style }) => (
-            <a target="_blank" href={link}>
+            <a target='_blank' href={link}>
               <div
                 key={id}
                 className={`shadow-md hover:scale-95 duration-500 py-2 rounded-lg ${style}`}
               >
-                <img src={src} alt="" className="w-20 mx-auto" />
-                <p className="mt-4">{title}</p>
+                <img src={src} alt='' className='w-20 mx-auto' />
+                <p className='mt-4'>{title}</p>
               </div>
             </a>
           ))}
