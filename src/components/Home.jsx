@@ -23,8 +23,7 @@ const Home = () => {
             <span className='font-bold text-orange-500'>JavaScript</span>,{' '}
             <span className='font-bold text-orange-500'>React</span>,{' '}
             <span className='font-bold text-orange-500'>SQL</span>,{' '}
-            <span className='font-bold text-orange-500'>Tableau</span>, and
-            more!
+            <span className='font-bold text-orange-500'>Excel</span>, and more!
           </p>
 
           <div>

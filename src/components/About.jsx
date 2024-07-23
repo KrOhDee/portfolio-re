@@ -19,7 +19,7 @@ const About = () => {
           time you can usually find me playing video games, bothering my cats,
           playing guitar, or language learning. I spend a lot of time learning
           new things, as I feel it not only helps me grow as a person, but also
-          fuels my creativity and problem-solving skills as a developer.
+          fuels my creativity and problem-solving skills.
         </p>
 
         <div className='pb-8 mt-9'>
