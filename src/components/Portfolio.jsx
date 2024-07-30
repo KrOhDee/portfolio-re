@@ -28,7 +28,8 @@ const Portfolio = () => {
       href2: 'https://github.com/KrOhDee/shopping-cart',
       tooltip: 'E-commerce Web App',
       // desc: "React e-commerce web app with shopping cart. Browse, add to cart, remove from cart, view total. You can also click on an item to get a description, and it's rating. Pulls items from API, styled with CSS.",
-      desc2: 'E-commerce Web App - React, Redux, FakeStore API, CSS, Bootstrap',
+      desc2:
+        'E-commerce Web App - React, Zustand, FakeStore API, CSS, Bootstrap',
     },
     {
       id: 3,
