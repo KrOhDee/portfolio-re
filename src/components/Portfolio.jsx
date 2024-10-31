@@ -8,6 +8,8 @@ import fixFleet from '../assets/portfolio/fix-fleet.png';
 import map from '../assets/portfolio/img-ang.png';
 import fres from '../assets/portfolio/img-fres.png';
 import weather from '../assets/portfolio/weather-app.png';
+import mobile from '../assets/portfolio/mobile-app.png';
+import customer from '../assets/portfolio/customer-schedule.jpg';
 
 const Portfolio = () => {
   const portfolios = [
@@ -33,6 +35,14 @@ const Portfolio = () => {
     },
     {
       id: 3,
+      src: mobile,
+      href: 'none',
+      href2: 'https://gitlab.com/KrOhDee/c971',
+      tooltip: 'Academic Scheduler',
+      desc2: 'Academic Scheduling Mobile App - C#, .NET Maui, SQLite',
+    },
+    {
+      id: 4,
       src: jitsuCavern,
       href: 'https://jiu-jitsu-library-41b02.web.app/',
       href2: 'https://github.com/KrOhDee/jiu-jitsu-video-library/',
@@ -42,7 +52,7 @@ const Portfolio = () => {
         'Jiu-Jitsu Video Streaming Web App - React, Firebase, YouTube API, Jest, CSS',
     },
     {
-      id: 4,
+      id: 5,
       src: theJournal,
       href: 'none',
       href2: 'https://github.com/KrOhDee/the-journal',
@@ -51,7 +61,7 @@ const Portfolio = () => {
       desc2: 'Book List - NodeJS, Express, MongoDB, JavaScript, EJS, Bootstrap',
     },
     {
-      id: 5,
+      id: 6,
       src: fres,
       href: 'https://fresnoscafe.netlify.app/',
       href2: 'https://github.com/KrOhDee/a-landing-page',
@@ -60,7 +70,16 @@ const Portfolio = () => {
       desc2: 'Landing Page - HTML, CSS',
     },
     {
-      id: 6,
+      id: 7,
+      src: customer,
+      href: 'none',
+      href2: 'none',
+      tooltip: 'Client Appointment Scheduler',
+      desc2:
+        'Client Appointment Scheduling Desktop App - C#, Windows Forms (WinForms), MySQL',
+    },
+    {
+      id: 8,
       src: weather,
       href: 'https://simpleweatherwatch.netlify.app/',
       href2: 'https://github.com/KrOhDee/weather-app',
@@ -69,7 +88,7 @@ const Portfolio = () => {
       desc2: 'Weather App - HTML, CSS, JavaScript, OpenWeatherApp API',
     },
     {
-      id: 7,
+      id: 9,
       src: map,
       href: 'none',
       href2: 'https://github.com/KrOhDee/ctmap',
@@ -78,7 +97,7 @@ const Portfolio = () => {
       desc2: 'Interactive SVG Map - TypeScript, Angular, CSS, Geonames API',
     },
     {
-      id: 8,
+      id: 10,
       src: eventPlanningPage,
       href: 'https://swanevents.netlify.app/',
       href2: 'https://github.com/KrOhDee/rainfocus',
@@ -131,11 +150,13 @@ const Portfolio = () => {
                     </button>
                   </a>
                 )}
-                <a target='_blank' href={href2}>
-                  <button className='px-6 py-3 m-4 duration-200 hover:scale-105'>
-                    Code
-                  </button>
-                </a>
+                {href2 !== 'none' && (
+                  <a target='_blank' href={href}>
+                    <button className='px-6 py-3 m-4 duration-200 hover:scale-105'>
+                      Code
+                    </button>
+                  </a>
+                )}
               </div>
             </div>
           ))}
