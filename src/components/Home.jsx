@@ -16,14 +16,14 @@ const Home = () => {
       <div className='xl:max-w-[1140px] mx-auto flex flex-col items-center justify-center h-full md:flex-row px-8'>
         <div className='flex flex-col justify-center h-full mr-8 sm:gap-0 xs:gap-4'>
           <h2 className='text-4xl sm:text-7xl font-bold text-white'>
-            Web Development + Data
+            Software Developer
           </h2>
           <p className='text-gray-500 py-4 max-w-md'>
             I have experience with technologies like{' '}
+            <span className='font-bold text-orange-500'>C# (.NET)</span>,{' '}
             <span className='font-bold text-orange-500'>JavaScript</span>,{' '}
             <span className='font-bold text-orange-500'>React</span>,{' '}
-            <span className='font-bold text-orange-500'>SQL</span>,{' '}
-            <span className='font-bold text-orange-500'>Excel</span>, and more!
+            <span className='font-bold text-orange-500'>MySQL</span>, and more!
           </p>
 
           <div>

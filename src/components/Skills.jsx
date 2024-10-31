@@ -1,12 +1,12 @@
 import React from 'react';
 
-import nextjs from '../assets/nextjs.svg';
+import dotnet from '../assets/dotnet.svg';
 import mongodb from '../assets/mongodb.svg';
 import typescript from '../assets/typescript.svg';
 import reactImage from '../assets/react.svg';
 import bootstrap from '../assets/bootstrap.svg';
 import sass from '../assets/sass.svg';
-import python from '../assets/python.svg';
+import csharp from '../assets/c-sharp.svg';
 import nodejs from '../assets/nodejs.svg';
 import mysql from '../assets/mysql.svg';
 import js from '../assets/js.svg';
@@ -16,10 +16,10 @@ const Skills = () => {
   const techs = [
     {
       id: 1,
-      src: nextjs,
-      title: 'NextJS',
-      link: 'https://nextjs.org/',
-      style: 'bg-gradient-to-r from-gray-300 to-gray-900',
+      src: dotnet,
+      title: '.NET',
+      link: 'https://dotnet.microsoft.com/en-us/',
+      style: 'bg-gradient-to-r from-gray-600 to-black',
     },
     {
       id: 2,
@@ -65,10 +65,10 @@ const Skills = () => {
     },
     {
       id: 8,
-      src: python,
-      title: 'Python',
-      link: 'https://www.python.org/',
-      style: 'bg-gradient-to-r from-blue-800 to-yellow-400',
+      src: csharp,
+      title: 'C#',
+      link: 'https://dotnet.microsoft.com/en-us/languages/csharp/',
+      style: 'bg-gradient-to-r from-black to-purple-700',
     },
     {
       id: 9,

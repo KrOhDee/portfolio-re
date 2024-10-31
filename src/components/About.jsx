@@ -14,12 +14,12 @@ const About = () => {
         </div>
 
         <p className='about-me mt-15 lg:text-xl md:text-2xl'>
-          Hi there! My name is Luis and I have a huge passion for tech,
-          particularly the web development and data side of things. In my free
-          time you can usually find me playing video games, bothering my cats,
-          playing guitar, or language learning. I spend a lot of time learning
-          new things, as I feel it not only helps me grow as a person, but also
-          fuels my creativity and problem-solving skills.
+          Hi there! My name is Luis and I have a huge passion for software
+          development. In my free time you can usually find me playing video
+          games, bothering my cats, playing guitar, or language learning. I
+          spend a lot of time learning new things, as I feel it not only helps
+          me grow as a person, but also fuels my creativity and problem-solving
+          skills.
         </p>
 
         <div className='pb-8 mt-9'>
